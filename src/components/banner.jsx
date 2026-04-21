@@ -1,5 +1,6 @@
 import React from "react";
 import BannerCard from "./bannerCard";
+import Promocion from "./promocion";
 
 export default function Banner() {
   return (
@@ -13,6 +14,7 @@ export default function Banner() {
       {/* 3. Contenedor del Contenido (BannerCard) */}
 
       <div className="relative z-10 flex items-start justify-end h-full w-full px-2 p-7">
+        <Promocion></Promocion>
         <BannerCard />
       </div>
     </section>

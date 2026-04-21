@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rockmachine.com.mx/sitemap.xml

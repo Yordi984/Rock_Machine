@@ -114,6 +114,8 @@ export default function Contacto() {
                   {/* Instagram */}
                   <a
                     href="https://www.instagram.com/mxrockmachine"
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex flex-col items-center gap-2 group"
                   >
                     <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-yellow-500 group-hover:text-black transition-all">
