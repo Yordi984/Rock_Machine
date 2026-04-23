@@ -25,18 +25,19 @@ export default function catalago() {
           description="Gracias a su avanzado motor CAT C4.4 ACERT Turbo, este equipo de 22,000 kg ofrece una eficiencia de combustible inigualable"
         />
         <CardProduct
-          image="/martillo.jpeg"
+          image="/320GX.jpeg"
           title="EXCAVADORA"
           tag="Precio Especial"
           subtitle="CAT 320GX"
-          description="Incluye pica nueva más una de regalo, tanque de nitrógeno para máxima potencia y caja de herramientas completa. Todo con garantía incluida"
+          description="Gracias a su avanzado motor CAT C4.4 ACERT Turbo, este equipo de 22,000 kg ofrece una eficiencia de combustible inigualable"
         />
         <CardProduct
-          image="/retroexcavadora.jpeg"
+          image="/XE215D.jpeg"
           title="EXCAVADORA"
           tag="Precio Especial"
           subtitle="XCMG XE215D"
-          description="Retroexcavadora XCMG XC8-C2570: Motor Cummins de 74 kW de potencia y fuerza de excavación de 63 kN. Ideal para construcción en México"
+          description="Motor Cummins QSB7 (6 cilindros), Potencia de 135 kW 2000 rpm, Capacidad de carga  21,000 kg,
+Radio de excavación de 9.94 m, Combustible Diésel"
         />
         <CardProduct
           image="/retroexcavadora.jpeg"
@@ -47,18 +48,18 @@ export default function catalago() {
         />
 
         <CardProduct
-          image="/retroexcavadora.jpeg"
+          image="/MartilloGeneral.jpeg"
           title="MARTILLO HIDRAULICO"
           tag="Precio Especial"
           subtitle="GENERAL BREAKER SB 140"
-          description="Retroexcavadora XCMG XC8-C2570: Motor Cummins de 74 kW de potencia y fuerza de excavación de 63 kN. Ideal para construcción en México"
+          description="Incluye pica nueva más una de regalo, tanque de nitrógeno para máxima potencia y caja de herramientas completa. Todo con garantía incluida"
         />
         <CardProduct
-          image="/retroexcavadora.jpeg"
+          image="/MartilloSoosan.jpeg"
           title="MARTILLO HIDRAULICO"
           tag="Precio Especial"
           subtitle="SOOSAN SB 81"
-          description="Retroexcavadora XCMG XC8-C2570: Motor Cummins de 74 kW de potencia y fuerza de excavación de 63 kN. Ideal para construcción en México"
+          description="Incluye pica nueva más una de regalo, tanque de nitrógeno para máxima potencia y caja de herramientas completa. Todo con garantía incluida"
         />
       </div>
     </section>

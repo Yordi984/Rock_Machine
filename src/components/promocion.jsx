@@ -34,20 +34,14 @@ export default function PromocionRetroAnimada() {
               </div>
 
               <div className="space-y-1">
-                <h1 className="text-4xl md:text-5xl font-black uppercase leading-[0.8] tracking-tighter text-white">
-                  EQUIPO <br />
-                  <span className="text-yellow-500 drop-shadow-2xl">
-                    A PLAZOS
-                  </span>
+                <h1 className="text-4xl md:text-5xl font-black uppercase leading-[0.8] tracking-tighter text-yellow-500">
+                  Financiamiento <br />
+                  <span className="text-white drop-shadow-2xl">Directo</span>
                 </h1>
                 <div className="h-1.5 w-20 bg-yellow-500 mx-auto mt-4"></div>
               </div>
 
               <div className="mt-2 space-y-5">
-                <p className="text-sm text-gray-300 font-bold uppercase tracking-[0.2em]">
-                  Financiamiento Directo
-                </p>
-
                 <a
                   href="https://wa.me/529984187535"
                   target="_blank"

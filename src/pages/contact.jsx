@@ -26,7 +26,7 @@ export default function Contacto() {
                   </h3>
                   <p className="text-gray-400 font-medium tracking-wide max-w-md">
                     ¿Necesitas una cotización inmediata o soporte técnico?
-                    Nuestro asesor está disponible para atenderte personalmente
+                    Nuestro asesor está disponible para atenderte
                   </p>
                 </div>
 
@@ -80,9 +80,19 @@ export default function Contacto() {
                   <h4 className="font-black uppercase tracking-[0.2em] text-[10px] text-yellow-500 mb-2">
                     Ubicación
                   </h4>
-                  <p className="text-sm font-bold text-gray-300 uppercase tracking-widest leading-tight">
-                    Cancún, Q. Roo. <br /> México.
-                  </p>
+                  <div className="flex flex-col items-center md:items-end gap-2">
+                    <a
+                      href="https://maps.app.goo.gl/C6upDpAKuqd3A6we8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group flex flex-col items-center md:items-end"
+                    >
+                      <div className="flex items-center gap-2 text-gray-400 group-hover:text-yellow-500 transition-colors duration-300"></div>
+                      <p className="text-[12px] font-bold text-gray-300 uppercase tracking-tighter mt-1 group-hover:text-white transition-colors">
+                        Mojarra Retorno 9 25, 77500 Cancún, Q.R.
+                      </p>
+                    </a>
+                  </div>
                 </div>
               </div>
 

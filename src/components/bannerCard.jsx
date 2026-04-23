@@ -29,14 +29,14 @@ export default function BannerCard() {
           <div className="space-y-4">
             <p className="text-xl text-white leading-tight font-bold">
               En la compra de una <br />
-              <span className="text-yellow-500 uppercase tracking-wider text-2xl">
-                MAQUINA
+              <span className="text-yellow-500 uppercase tracking-wider text-sm font-bold">
+                Excavadora o Retroexcavadora
               </span>
             </p>
             <p className="text-sm text-gray-400 leading-relaxed font-medium max-w-[90%]">
-              "No solo compres una máquina, adquiere una solución completa. El
+              No solo compres una máquina, adquiere una solución completa. El
               estándar de oro en maquinaria pesada, ahora con equipamiento extra
-              incluido."
+              incluido
             </p>
           </div>
 

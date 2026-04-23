@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import WhatsAppButton from "../components/WhatsAppButton";
+import Footer from "../components/footer";
 
 export default function Nosotros() {
   return (
@@ -116,6 +117,7 @@ export default function Nosotros() {
           </div>
         </section>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
