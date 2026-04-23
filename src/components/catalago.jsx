@@ -5,18 +5,18 @@ export default function catalago() {
   return (
     <section className="bg-black min-h-screen">
       {/* Encabezado */}
-      <div className="flex flex-wrap gap-4 font-black p-10">
+      <div className="flex flex-wrap gap-4 font-black p-6 md:p-10">
         <div className="relative inline-block pb-3">
-          <h2 className="text-5xl font-extrabold text-white uppercase">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-white uppercase">
             CATALOGO
           </h2>
-          <div className="absolute left-0 bottom-0 h-1 w-20 bg-yellow-500"></div>
+          <div className="absolute left-0 bottom-0 h-1 w-16 md:w-20 bg-yellow-500"></div>
         </div>
-        <h2 className="text-5xl text-yellow-500 uppercase">INDUSTRIAL</h2>
+        <h2 className="text-3xl md:text-5xl text-yellow-500 uppercase">INDUSTRIAL</h2>
       </div>
 
       {/* Grid de Productos: 3 columnas en desktop, 2 en tablet, 1 en móvil */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10 pb-20 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 px-6 md:px-10 pb-20 justify-items-center">
         <CardProduct
           image="/excavadora.jpeg"
           title="EXCAVADORA "

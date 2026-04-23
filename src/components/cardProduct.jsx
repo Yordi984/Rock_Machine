@@ -10,13 +10,13 @@ export default function CardProduct({
   return (
     // h-full asegura que si están en un grid, todas estiren al mismo tamaño
     // flex flex-col permite controlar la distribución del contenido interno
-    <div className="w-full max-w-[400px] h-full flex flex-col glass shadow-2xl rounded-[40px] overflow-hidden border border-white/10 relative group">
+    <div className="w-full max-w-[400px] h-full flex flex-col glass shadow-2xl rounded-[30px] md:rounded-[40px] overflow-hidden border border-white/10 relative group">
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900/90 via-black/80 to-black pointer-events-none"></div>
 
       {/* card-body con flex-1 para empujar el botón hacia abajo */}
-      <div className="card-body p-8 gap-6 relative z-10 flex flex-col flex-1">
+      <div className="card-body p-6 md:p-8 gap-4 md:gap-6 relative z-10 flex flex-col flex-1">
         {/* Imagen con altura fija para que no varíe el layout */}
-        <div className="relative max-h-68 w-full flex items-center justify-center flex-shrink-0 overflow-hidden rounded-t-[40px]">
+        <div className="relative h-48 md:h-64 w-full flex items-center justify-center flex-shrink-0 overflow-hidden rounded-t-[30px] md:rounded-t-[40px]">
           {/* Overlay sutil para integrar la foto con el diseño oscuro */}
           <div className="absolute inset-0 bg-black/20 z-10"></div>
 
@@ -29,27 +29,27 @@ export default function CardProduct({
 
         <header className="space-y-3">
           <div>
-            <span className="bg-yellow-500/10 border border-yellow-500/20 text-yellow-500 text-[9px] font-black tracking-[0.3em] uppercase py-1 px-3 rounded-full">
+            <span className="bg-yellow-500/10 border border-yellow-500/20 text-yellow-500 text-[8px] md:text-[9px] font-black tracking-[0.3em] uppercase py-1 px-3 rounded-full">
               {tag}
             </span>
           </div>
 
           <div className="relative">
             {/* Altura fija en título para evitar saltos de línea asimétricos */}
-            <h2 className="text-3xl font-black uppercase leading-none tracking-tighter text-white h-[64px] flex items-center line-clamp-2">
+            <h2 className="text-2xl md:text-3xl font-black uppercase leading-none tracking-tighter text-white md:h-[64px] flex items-center line-clamp-2">
               {title}
             </h2>
-            <div className="h-1.5 w-12 bg-yellow-500 mt-3 group-hover:w-20 transition-all duration-500"></div>
+            <div className="h-1.5 w-12 bg-yellow-500 mt-2 md:mt-3 group-hover:w-20 transition-all duration-500"></div>
           </div>
         </header>
 
         {/* Contenedor de texto con flex-1 y altura controlada */}
         <div className="space-y-3 flex-1">
-          <p className="text-lg text-white leading-tight font-bold line-clamp-2 min-h-[56px]">
+          <p className="text-base md:text-lg text-white leading-tight font-bold line-clamp-2 min-h-[48px] md:min-h-[56px]">
             {subtitle}
           </p>
           {/* line-clamp-4 limita el texto a 4 líneas para que no crezca infinitamente */}
-          <p className="text-xs text-gray-400 leading-relaxed font-medium line-clamp-4 h-[72px] overflow-hidden">
+          <p className="text-[10px] md:text-xs text-gray-400 leading-relaxed font-medium line-clamp-4 md:h-[72px] overflow-hidden">
             {description}
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function CardProduct({
             href="https://wa.me/529984187535"
             target="_blank"
             rel="noopener noreferrer"
-            className="group/btn btn rounded-2xl w-full h-14 border-none bg-yellow-500 text-black hover:bg-yellow-400 transition-all duration-300 flex items-center justify-center gap-2"
+            className="group/btn btn rounded-2xl w-full h-12 md:h-14 border-none bg-yellow-500 text-black hover:bg-yellow-400 transition-all duration-300 flex items-center justify-center gap-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

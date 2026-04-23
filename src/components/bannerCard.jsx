@@ -2,38 +2,38 @@ import React from "react";
 
 export default function BannerCard() {
   return (
-    <div className="flex items-start justify-end p-6 min-h-[600px] w-full">
-      <div className="card w-full max-w-[480px] glass shadow-2xl rounded-[40px] overflow-hidden border border-white/20 relative">
+    <div className="flex items-start justify-center md:justify-end p-4 md:p-6 min-h-[500px] md:min-h-[600px] w-full">
+      <div className="card w-full max-w-[480px] glass shadow-2xl rounded-[30px] md:rounded-[40px] overflow-hidden border border-white/20 relative">
         {/* Fondo oscuro con gradiente para resaltar el efecto cristal */}
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/90 via-black/80 to-black pointer-events-none"></div>
 
-        <div className="card-body p-10 md:p-12 gap-8 relative z-10">
+        <div className="card-body p-8 md:p-12 gap-6 md:gap-8 relative z-10">
           <header className="space-y-4">
             {/* Tag de Promoción */}
             <div>
-              <span className="bg-yellow-500/10 border border-yellow-500/30 text-yellow-500 text-[10px] font-black tracking-[0.4em] uppercase py-1.5 px-4 rounded-full">
+              <span className="bg-yellow-500/10 border border-yellow-500/30 text-yellow-500 text-[9px] md:text-[10px] font-black tracking-[0.4em] uppercase py-1.5 px-4 rounded-full">
                 Promoción Exclusiva
               </span>
             </div>
 
             <div className="relative pt-4">
-              <h1 className="text-6xl font-black uppercase leading-[0.8] tracking-tighter text-white">
+              <h1 className="text-4xl md:text-6xl font-black uppercase leading-[0.8] tracking-tighter text-white">
                 MARTILLO <br />
                 <span className="text-yellow-500">GRATIS</span>
               </h1>
               {/* Detalle decorativo industrial */}
-              <div className="h-2 w-20 bg-yellow-500 mt-6"></div>
+              <div className="h-2 w-16 md:w-20 bg-yellow-500 mt-6"></div>
             </div>
           </header>
 
           <div className="space-y-4">
-            <p className="text-xl text-white leading-tight font-bold">
+            <p className="text-lg md:text-xl text-white leading-tight font-bold">
               En la compra de una <br />
-              <span className="text-yellow-500 uppercase tracking-wider text-sm font-bold">
+              <span className="text-yellow-500 uppercase tracking-wider text-xs md:text-sm font-bold">
                 Excavadora o Retroexcavadora
               </span>
             </p>
-            <p className="text-sm text-gray-400 leading-relaxed font-medium max-w-[90%]">
+            <p className="text-xs md:text-sm text-gray-400 leading-relaxed font-medium max-w-full md:max-w-[90%]">
               No solo compres una máquina, adquiere una solución completa. El
               estándar de oro en maquinaria pesada, ahora con equipamiento extra
               incluido
@@ -45,7 +45,7 @@ export default function BannerCard() {
               href="https://wa.me/529984187535"
               target="_blank"
               rel="noopener noreferrer"
-              className="group btn rounded-2xl w-full h-16 border-none bg-yellow-500 text-black hover:bg-yellow-400 transition-all duration-300 shadow-xl shadow-yellow-500/10 flex items-center justify-center gap-3"
+              className="group btn rounded-2xl w-full h-14 md:h-16 border-none bg-yellow-500 text-black hover:bg-yellow-400 transition-all duration-300 shadow-xl shadow-yellow-500/10 flex items-center justify-center gap-3"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
