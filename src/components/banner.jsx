@@ -12,7 +12,7 @@ export default function Banner() {
       </div>
 
       {/* 3. Contenedor del Contenido (BannerCard) */}
-      <div className="relative z-10 flex flex-col md:flex-row items-center md:items-start justify-center md:justify-end h-full w-full px-4 md:px-12 py-10 md:py-20 gap-10 md:gap-0">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-center min-h-[calc(100vh-80px)] w-full px-4 md:px-12 pt-10 md:pt-14 gap-8 md:gap-12 md:-mt-10">
         <Promocion />
         <BannerCard />
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/header";
 import WhatsAppButton from "../components/WhatsAppButton";
 import Footer from "../components/footer";
+import Carousel from "../components/carusel";
 
 export default function Nosotros() {
   return (
@@ -9,7 +10,7 @@ export default function Nosotros() {
       <Header />
       <WhatsAppButton />
       <main>
-        <section className="relative py-16 md:py-24 px-6 md:px-8 border-b border-white/5">
+        <section className="relative py-16 md:py-24 px-6 md:px-8 ">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             <div className="order-2 md:order-1 text-center md:text-left">
               <span className="text-yellow-500 text-[9px] md:text-[10px] font-black uppercase tracking-[0.5em]">
@@ -41,6 +42,7 @@ export default function Nosotros() {
             </div>
           </div>
         </section>
+        <Carousel></Carousel>
 
         {/* MISIÓN Y VISIÓN - GRID DE IMPACTO */}
         <section className="py-16 md:py-24 px-6 md:px-8 bg-[#080808]">

@@ -5,10 +5,12 @@ import "./index.css";
 import App from "./App.jsx";
 import Nosotros from "./pages/nosotros.jsx";
 import Contacto from "./pages/contact.jsx";
+import Scroll from "./components/scroll.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
+      <Scroll />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/nosotros" element={<Nosotros />} />
