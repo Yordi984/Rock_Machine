@@ -12,27 +12,29 @@ export default function catalago() {
           </h2>
           <div className="absolute left-0 bottom-0 h-1 w-16 md:w-20 bg-yellow-500"></div>
         </div>
-        <h2 className="text-3xl md:text-5xl text-yellow-500 uppercase">INDUSTRIAL</h2>
+        <h2 className="text-3xl md:text-5xl text-yellow-500 uppercase">
+          INDUSTRIAL
+        </h2>
       </div>
 
       {/* Grid de Productos: 3 columnas en desktop, 2 en tablet, 1 en móvil */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 px-6 md:px-10 pb-20 justify-items-center">
         <CardProduct
-          image="/excavadora.jpeg"
+          image="excavadora.jpeg"
           title="EXCAVADORA "
           tag="Precio Especial"
           subtitle="CAT 320GC"
           description="Gracias a su avanzado motor CAT C4.4 ACERT Turbo, este equipo de 22,000 kg ofrece una eficiencia de combustible inigualable"
         />
         <CardProduct
-          image="/320GX.jpeg"
+          image="320GX.jpeg"
           title="EXCAVADORA"
           tag="Precio Especial"
           subtitle="CAT 320GX"
           description="Gracias a su avanzado motor CAT C4.4 ACERT Turbo, este equipo de 22,000 kg ofrece una eficiencia de combustible inigualable"
         />
         <CardProduct
-          image="/XE215D.jpeg"
+          image="XE215D.jpeg"
           title="EXCAVADORA"
           tag="Precio Especial"
           subtitle="XCMG XE215D"
@@ -40,7 +42,7 @@ export default function catalago() {
 Radio de excavación de 9.94 m, Combustible Diésel"
         />
         <CardProduct
-          image="/retroexcavadora.jpeg"
+          image="retroexcavadora.jpeg"
           title="RETROEXCAVADORA"
           tag="Precio Especial"
           subtitle="XCMG XC8 C2570"
@@ -48,14 +50,14 @@ Radio de excavación de 9.94 m, Combustible Diésel"
         />
 
         <CardProduct
-          image="/MartilloGeneral.jpeg"
+          image="MartilloGeneral.jpeg"
           title="MARTILLO HIDRAULICO"
           tag="Precio Especial"
           subtitle="GENERAL BREAKER SB 140"
           description="Incluye pica nueva más una de regalo, tanque de nitrógeno para máxima potencia y caja de herramientas completa. Todo con garantía incluida"
         />
         <CardProduct
-          image="/MartilloSoosan.jpeg"
+          image="MartilloSoosan.jpeg"
           title="MARTILLO HIDRAULICO"
           tag="Precio Especial"
           subtitle="SOOSAN SB 81"

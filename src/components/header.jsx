@@ -22,7 +22,7 @@ export default function Header() {
       <div className="h-10 md:h-12">
         <NavLink to="/">
           <img
-            src="/logoN.png"
+            src="logoN.png"
             alt="Logo"
             className="h-full w-auto object-contain brightness-110"
           />

@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 
 const imagenes = [
-  "/carusel.jpeg",
-  "/carusel1.jpeg",
-  "/carusel2.jpeg",
-  "/carusel3.jpeg",
-  "/carusel4.jpeg",
-  "/carusel5.jpeg",
-  "/carusel6.jpeg",
+  "carusel.jpeg",
+  "carusel1.jpeg",
+  "carusel2.jpeg",
+  "carusel3.jpeg",
+  "carusel4.jpeg",
+  "carusel5.jpeg",
+  "carusel6.jpeg",
 ];
 
 export default function CarouselSmall() {

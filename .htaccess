@@ -1,0 +1,17 @@
+# 1. Asegurar que el servidor reconozca el tipo de archivo CSS
+AddType text/css .css
+AddType application/javascript .js
+
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+RewriteBase /rockmachinemx/
+
+# Si el archivo existe físicamente (como el CSS), entrégalo y no hagas nada más
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Si el archivo NO existe, envía todo al index.html (para React Router)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.html [L]
+</IfModule>

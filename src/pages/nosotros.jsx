@@ -31,7 +31,7 @@ export default function Nosotros() {
             <div className="order-1 md:order-2 relative">
               <div className="aspect-video md:aspect-square rounded-[20px] md:rounded-[10px] overflow-hidden border border-white/10 shadow-2xl">
                 <video
-                  src="/ReferenciaMaquina.mp4"
+                  src="ReferenciaMaquina.mp4"
                   autoPlay
                   muted
                   loop

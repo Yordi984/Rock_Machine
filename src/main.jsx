@@ -9,7 +9,7 @@ import Scroll from "./components/scroll.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/rockmachinemx">
       <Scroll />
       <Routes>
         <Route path="/" element={<App />} />
